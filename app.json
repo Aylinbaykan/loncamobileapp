@@ -1,0 +1,7 @@
+{
+  "name": "ilkProje",
+  "displayName": "ilkProje",
+  "plugins": [
+    "expo-font"
+  ]
+}
