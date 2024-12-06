@@ -1,18 +1,14 @@
-
-
-
-
 import { StyleSheet } from 'react-native';
-
+import { colors, dimensions,fontWeights } from '../../config/config';
 
 const styles = StyleSheet.create({
   card: {
     flex: 1,
     margin: 5,
-    backgroundColor: '#fff',
-    borderRadius: 10,
+    backgroundColor: colors.cardBackground,
+    borderRadius: dimensions.cardBorderRadius,
     overflow: 'hidden',
-    shadowColor: '#000',
+    shadowColor: colors.shadowColor,
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 4,
@@ -21,72 +17,52 @@ const styles = StyleSheet.create({
   imageContainer: {
     position: 'relative', // Kalp ikonunu konumlandırmak için
   },
+
   image: {
     width: '100%',
-    height: 200,
+    height: dimensions.height / 3.45,
     resizeMode: 'cover',
   },
   likeButton: {
     position: 'absolute',
-    top: 10, // Görselin üst kısmında
-    right: 10, // Sağ üst köşe
-    backgroundColor: 'rgba(255, 255, 255, 0.7)', // Hafif beyaz arka plan
+    top: dimensions.height / 80, // Görselin üst kısmında
+    right: dimensions.width / 80, // Sağ üst köşe
+    backgroundColor: colors.likeButtonBackground, // Hafif beyaz arka plan
     borderRadius: 20,
     padding: 5,
   },
-
   likeIcon: {
-    size: 24, // Boyut
+    size: dimensions.width / 15,
   },
   liked: {
-    color: '#FF007F', // Beğenilmiş durumdaki renk
+    color: colors.primary,
   },
   unliked: {
-    color: 'gray', // Beğenilmemiş durumdaki renk
+    color: colors.unliked, // Beğenilmemiş durumdaki renk
   },
-  image: {
-    width: '100%',
-    height: 200, // Daha büyük görseller
-    resizeMode: 'cover',
-  },
+
   details: {
-    padding: 10,
+    padding: dimensions.height / 90,
     borderTopWidth: 1,
     borderTopColor: '#eeeeee',
   },
   name: {
-    fontSize: 14,
-    fontWeight: '500',
-    color: 'black',
+    fontSize: dimensions.width / 27,
+    fontWeight: fontWeights.regular,
+    color: colors.textPrimary,
     marginBottom: 5,
   },
   vendorName: {
-    fontSize: 14, 
-    color: '#423138', 
-    fontWeight: '400',
-    marginTop: 5, 
+    fontSize: dimensions.width / 29,
+    color: colors.vendorColor,
+    fontWeight: fontWeights.regular,
+    marginTop: 5,
     marginBottom: 5,
-  },
-  
-  ratingContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    marginBottom: 5,
-  },
-  rating: {
-    fontSize: 14,
-    color: '#333',
-    marginLeft: 5,
-  },
-  reviews: {
-    fontSize: 12,
-    color: '#666',
-    marginLeft: 5,
   },
   price: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    color: '#7F6972',
+    fontSize: dimensions.width / 24,
+    fontWeight: fontWeights.bold,
+    color: colors.priceColor,
   },
 });
 

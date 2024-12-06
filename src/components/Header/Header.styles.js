@@ -1,20 +1,21 @@
-import { StyleSheet, Dimensions, StatusBar } from 'react-native';
+import { StyleSheet, StatusBar } from 'react-native';
+import { colors,dimensions } from '../../config/config';
 
 const styles = StyleSheet.create({
   safeArea: {
     flex: 0,
-    backgroundColor: '#7F6972',
-    paddingTop: StatusBar.currentHeight || 0, // Durum çubuğu yüksekliği (Android için)
+    backgroundColor: colors.headerBackground,
+    paddingTop: StatusBar.currentHeight || 0, 
   },
   container: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#7F6972',
+    backgroundColor: colors.headerBackground,
     paddingHorizontal: 10,
-    height: 60, // Header yüksekliği
+    height: dimensions.headerHeight, 
   },
   sideContainer: {
-    flex: 1, // Sol ve sağ boşluklar eşit alan kaplar
+    flex: 1, 
   },
   iconButton: {
     padding: 10,
@@ -22,20 +23,20 @@ const styles = StyleSheet.create({
     
   },
   logoContainer: {
-    flex: 2, // Ortadaki logo daha geniş bir alan kaplar
-    alignItems: 'center', // Yatayda ortala
-    justifyContent: 'center', // Dikeyde ortala
+    flex: 2,
+    alignItems: 'center', 
+    justifyContent: 'center', 
   },
   logo: {
-    width: 120, // Logonun genişliği
-    height: 40, // Logonun yüksekliği
+    width: dimensions.width/3, 
+    height: dimensions.headerHeight, 
   },
 });
 
 export const iconProps = {
-  name: 'arrow-back', // İkonun adı
-  size: 24, // İkonun boyutu
-  color: 'white', // İkonun rengi
+  name: 'arrow-back-ios', 
+  size: dimensions.width/20, 
+  color: colors.background,
 };
 
 export default styles;

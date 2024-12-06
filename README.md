@@ -1,79 +1,144 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Lonca Mobile App
 
-# Getting Started
+**Lonca**, React Native ile geliştirilmiş, kullanıcıların ürünleri listeleyip detaylarını inceleyebileceği bir mobil uygulamadır. Uygulama, kullanıcı dostu bir arayüz ile modern bir alışveriş deneyimi sunar.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+---
 
-## Step 1: Start the Metro Server
+## 📱 **Uygulama Genel Özellikleri**
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+### **Ürün Listesi**
+- Tüm ürünlerin kart formatında listelendiği bir ekran.
+- **Kartlar:** Ürünün ana resmi, marka adı, ürün adı ve fiyat bilgisi yer alır.
+- Kullanıcılar ürünleri aşağıya doğru kaydırarak (scroll) keşfedebilir.
+- Favorilere ekleme özelliği.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+![Ürün Listesi](./assets/screen1.png)
 
-```bash
-# using npm
-npm start
+### **Ürün Detay Ekranı**
+- **Resim Galerisi:**
+  - Ürünün ana resmi ve diğer resimleri arasında geçiş yapabilme.
+  - İleri-geri butonları ve alt kısımda küçük resim galerisi.
+- **Ürün Bilgileri:**
+  - Ürün adı, fiyatı, marka adı, serisi ve SKU numarası.
+- **Ürün Detayları:**
+  - Materyal bilgisi (ör. %80 Pamuk, %20 Polyester).
+  - Model ölçüleri (ör. Boy: 1.79, Göğüs: 88, Bel: 62, Kalça: 93).
+  - Ürün boyutları (ör. Yükseklik: 67 cm).
 
-# OR using Yarn
-yarn start
-```
+![Ürün Detay - Galeri](./assets/screen2.png)
+![Ürün Detay - Bilgiler](./assets/screen3.png)
 
-## Step 2: Start your Application
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+### **Responsive tasarım**: Tüm ekran boyutlarına uyumlu.
+- **Merkezi bir yapılandırma:**
+  - Renk, yazı tipi, ekran boyutları ve API bilgileri gibi değişkenler `config.js` üzerinden yönetiliyor.
+  - API anahtarları ve URL bilgileri `.env` dosyasıyla saklanıyor.
 
-### For Android
 
-```bash
-# using npm
-npm run android
+---
 
-# OR using Yarn
-yarn android
-```
+## 🛠 **Kullanılan Teknolojiler**
 
-### For iOS
+- **React Native (CLI):** Mobil uygulama geliştirme.
+- **JavaScript:** Uygulama dili.
+- **Axios:** Backend API ile veri alışverişi.
+- **React Navigation:** Ekranlar arası geçiş.
+- **Flexbox:** Responsive tasarım.
 
-```bash
-# using npm
-npm run ios
+---
 
-# OR using Yarn
-yarn ios
-```
+## 🔧 **Kurulum ve Çalıştırma**
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+### Gerekli Araçlar:
+- Node.js: **v18.20.5**
+- npm: **v10.8.2**
+- React Native CLI: **15.0.1**
+- Android Studio ve/veya Xcode
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+### Kurulum Adımları:
 
-## Step 3: Modifying your App
+1. Projeyi klonlayın:
+   ```bash
+   git clone https://github.com/kullanici_adiniz/lonca.git
+   cd lonca
 
-Now that you have successfully run the app, let's modify it.
+## 🚀 **Uygulamayı Çalıştırma**
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+Uygulamayı iOS veya Android cihazlarda/simülatörlerde çalıştırmak için aşağıdaki adımları izleyin.
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+---
 
-## Congratulations! :tada:
+### **iOS için Uygulama Çalıştırma**
 
-You've successfully run and modified your React Native App. :partying_face:
+1. **Mac cihazınızda Xcode’u yükleyin ve gerekli yapılandırmaları yapın**:
+   - Xcode yüklü değilse, (https://developer.apple.com/xcode/) indirebilirsiniz.
+   - Gerekli komut satırı araçlarını yükleyin:
+     ```bash
+     xcode-select --install
+     ```
 
-### Now what?
+2. **iOS simülatörünü başlatın**:
+   - Xcode’da bir proje açın, "Simulator" menüsünden bir cihaz (örneğin, iPhone 14 Pro) seçin ve çalıştırın.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+3. **Metro Bundler'ı başlatın**:
+   - Proje dizininde yeni bir terminal açın ve şu komutu çalıştırın:
+     ```bash
+     npm start
+     ```
 
-# Troubleshooting
+4. **iOS uygulamasını çalıştırın**:
+   - Metro Bundler çalışırken, başka bir terminalde şu komutu çalıştırın:
+     ```bash
+     npx react-native run-ios
+     ```
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+5. **Değişiklikleri görmek için uygulamayı yeniden yükleyin**:
+   - Kodda değişiklik yaptıktan sonra iOS simülatöründe <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> tuşlarına basarak uygulamayı yeniden yükleyebilirsiniz.
 
-# Learn More
+---
 
-To learn more about React Native, take a look at the following resources:
+### **Android için Uygulama Çalıştırma**
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+1. **Android Studio’yu yükleyin ve emülatör yapılandırmasını yapın**:
+   - Android Studio yüklü değilse,(https://developer.android.com/studio) indirebilirsiniz.
+   - SDK Manager’dan "Android SDK Tools" ve "Android Virtual Device (AVD)" yüklü olduğundan emin olun.
+   - Bir emülatör oluşturun ve başlatın (örneğin, Pixel 5).
+
+2. **Metro Bundler'ı başlatın**:
+   - Proje dizininde yeni bir terminal açın ve şu komutu çalıştırın:
+     ```bash
+     npm start
+     ```
+
+3. **Android uygulamasını çalıştırın**:
+   - Metro Bundler çalışırken, başka bir terminalde şu komutu çalıştırın:
+     ```bash
+     npx react-native run-android
+     ```
+
+4. **Değişiklikleri görmek için uygulamayı yeniden yükleyin**:
+   - Android cihazda <kbd>R</kbd> tuşuna iki kez basarak uygulamayı yeniden yükleyebilirsiniz.
+
+---
+   
+## 📂 **Proje Yapısı**
+
+LONCAMOBILEAPP/
+│
+├── src/
+│   ├── components/         # Reusable bileşenler (ör. Carousel, ProductCard)
+│   ├── screens/            # Ekranlar (ProductList, ProductDetail vb.)
+│   ├── config/             # Merkezi yapılandırmalar (renk, font, API bilgileri)
+│   ├── services/           # API çağrıları
+│
+├── .env                    # Çevresel değişkenler
+├── App.js                  # Ana uygulama dosyası
+├── package.json            # Bağımlılık dosyası
+└── README.md               # Proje dokümantasyonu
+
+
+## 📝 **Notlar**
+
+- **.env Dosyası**: Proje test edilebilmesi için `.env` dosyasında kullanılan **API_BASE_URL** ve diğer çevresel değişkenler gizlenmemiştir. Test sırasında herhangi bir ekstra ayar yapmanıza gerek yoktur. Ancak, üretim ortamında `.env` dosyası mutlaka **.gitignore** içine eklenerek gizlenmelidir.
+
+

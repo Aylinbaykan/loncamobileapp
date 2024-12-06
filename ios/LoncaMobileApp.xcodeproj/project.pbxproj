@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* LoncaMobileAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* LoncaMobileAppTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-LoncaMobileApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-LoncaMobileApp.a */; };
+		018C83267A4F7020DCE74F88 /* libPods-LoncaMobileApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C2BDDD2DF782DDDE6FCF33 /* libPods-LoncaMobileApp.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		57CECAFBD2511E3DF32517B2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
-		7699B88040F8A987B510C191 /* libPods-LoncaMobileApp-LoncaMobileAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-LoncaMobileApp-LoncaMobileAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		FFAC2D53F98DF5548C8C013F /* libPods-LoncaMobileApp-LoncaMobileAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E435E592DA1D64AABC0E343 /* libPods-LoncaMobileApp-LoncaMobileAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,28 +23,28 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = "LoncaMobileApp";
+			remoteInfo = LoncaMobileApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* LoncaMobileAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LoncaMobileAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* LoncaMobileAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoncaMobileAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* LoncaMobileAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LoncaMobileAppTests.m"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* LoncaMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LoncaMobileApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "LoncaMobileApp/AppDelegate.h"; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "LoncaMobileApp/AppDelegate.mm"; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "LoncaMobileApp/Images.xcassets"; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "LoncaMobileApp/Info.plist"; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "LoncaMobileApp/main.m"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* LoncaMobileAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoncaMobileAppTests.m; sourceTree = "<group>"; };
+		0224BA89E10F97755A63C40F /* Pods-LoncaMobileApp-LoncaMobileAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoncaMobileApp-LoncaMobileAppTests.debug.xcconfig"; path = "Target Support Files/Pods-LoncaMobileApp-LoncaMobileAppTests/Pods-LoncaMobileApp-LoncaMobileAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* LoncaMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoncaMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = LoncaMobileApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = LoncaMobileApp/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LoncaMobileApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LoncaMobileApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LoncaMobileApp/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = LoncaMobileApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-LoncaMobileApp-LoncaMobileAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoncaMobileApp-LoncaMobileAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-LoncaMobileApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoncaMobileApp.debug.xcconfig"; path = "Target Support Files/Pods-LoncaMobileApp/Pods-LoncaMobileApp.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-LoncaMobileApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoncaMobileApp.release.xcconfig"; path = "Target Support Files/Pods-LoncaMobileApp/Pods-LoncaMobileApp.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-LoncaMobileApp-LoncaMobileAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoncaMobileApp-LoncaMobileAppTests.debug.xcconfig"; path = "Target Support Files/Pods-LoncaMobileApp-LoncaMobileAppTests/Pods-LoncaMobileApp-LoncaMobileAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-LoncaMobileApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoncaMobileApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "LoncaMobileApp/LaunchScreen.storyboard"; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-LoncaMobileApp-LoncaMobileAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoncaMobileApp-LoncaMobileAppTests.release.xcconfig"; path = "Target Support Files/Pods-LoncaMobileApp-LoncaMobileAppTests/Pods-LoncaMobileApp-LoncaMobileAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E435E592DA1D64AABC0E343 /* libPods-LoncaMobileApp-LoncaMobileAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoncaMobileApp-LoncaMobileAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		385B23E740A7CFA97F9F9415 /* Pods-LoncaMobileApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoncaMobileApp.release.xcconfig"; path = "Target Support Files/Pods-LoncaMobileApp/Pods-LoncaMobileApp.release.xcconfig"; sourceTree = "<group>"; };
+		4287766D4B98AE1FD473A9F6 /* Pods-LoncaMobileApp-LoncaMobileAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoncaMobileApp-LoncaMobileAppTests.release.xcconfig"; path = "Target Support Files/Pods-LoncaMobileApp-LoncaMobileAppTests/Pods-LoncaMobileApp-LoncaMobileAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LoncaMobileApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7471D3A5F658C413C7CA5E7 /* Pods-LoncaMobileApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoncaMobileApp.debug.xcconfig"; path = "Target Support Files/Pods-LoncaMobileApp/Pods-LoncaMobileApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E7C2BDDD2DF782DDDE6FCF33 /* libPods-LoncaMobileApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoncaMobileApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-LoncaMobileApp-LoncaMobileAppTests.a in Frameworks */,
+				FFAC2D53F98DF5548C8C013F /* libPods-LoncaMobileApp-LoncaMobileAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-LoncaMobileApp.a in Frameworks */,
+				018C83267A4F7020DCE74F88 /* libPods-LoncaMobileApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +74,7 @@
 				00E356F21AD99517003FC87E /* LoncaMobileAppTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = "LoncaMobileAppTests";
+			path = LoncaMobileAppTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -96,15 +96,15 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 			);
-			name = "LoncaMobileApp";
+			name = LoncaMobileApp;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-LoncaMobileApp.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-LoncaMobileApp-LoncaMobileAppTests.a */,
+				E7C2BDDD2DF782DDDE6FCF33 /* libPods-LoncaMobileApp.a */,
+				2E435E592DA1D64AABC0E343 /* libPods-LoncaMobileApp-LoncaMobileAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,10 +143,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-LoncaMobileApp.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-LoncaMobileApp.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-LoncaMobileApp-LoncaMobileAppTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-LoncaMobileApp-LoncaMobileAppTests.release.xcconfig */,
+				A7471D3A5F658C413C7CA5E7 /* Pods-LoncaMobileApp.debug.xcconfig */,
+				385B23E740A7CFA97F9F9415 /* Pods-LoncaMobileApp.release.xcconfig */,
+				0224BA89E10F97755A63C40F /* Pods-LoncaMobileApp-LoncaMobileAppTests.debug.xcconfig */,
+				4287766D4B98AE1FD473A9F6 /* Pods-LoncaMobileApp-LoncaMobileAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -158,20 +158,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LoncaMobileAppTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				76B7D1CFE0FE0C99AE593DAE /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				4D83E526E29D1DE96F2606A4 /* [CP] Embed Pods Frameworks */,
+				5ED4457C1C9F3D4DDCCCEF18 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = "LoncaMobileAppTests";
-			productname = "LoncaMobileAppTests";
+			name = LoncaMobileAppTests;
 			productReference = 00E356EE1AD99517003FC87E /* LoncaMobileAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -179,20 +178,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "LoncaMobileApp" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				7D8D3C093BF85ABEA1E4FB16 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				4F313700E4371DDC7383AA30 /* [CP] Embed Pods Frameworks */,
+				62515D403885D802809C57CC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "LoncaMobileApp";
-			productName = "LoncaMobileApp";
+			name = LoncaMobileApp;
+			productName = LoncaMobileApp;
 			productReference = 13B07F961A680F5B00A75B9A /* LoncaMobileApp.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -269,7 +268,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		4D83E526E29D1DE96F2606A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoncaMobileApp-LoncaMobileAppTests/Pods-LoncaMobileApp-LoncaMobileAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoncaMobileApp-LoncaMobileAppTests/Pods-LoncaMobileApp-LoncaMobileAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoncaMobileApp-LoncaMobileAppTests/Pods-LoncaMobileApp-LoncaMobileAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F313700E4371DDC7383AA30 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -286,7 +302,41 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoncaMobileApp/Pods-LoncaMobileApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		5ED4457C1C9F3D4DDCCCEF18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoncaMobileApp-LoncaMobileAppTests/Pods-LoncaMobileApp-LoncaMobileAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoncaMobileApp-LoncaMobileAppTests/Pods-LoncaMobileApp-LoncaMobileAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoncaMobileApp-LoncaMobileAppTests/Pods-LoncaMobileApp-LoncaMobileAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62515D403885D802809C57CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoncaMobileApp/Pods-LoncaMobileApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoncaMobileApp/Pods-LoncaMobileApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoncaMobileApp/Pods-LoncaMobileApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76B7D1CFE0FE0C99AE593DAE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -308,7 +358,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		7D8D3C093BF85ABEA1E4FB16 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -328,57 +378,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LoncaMobileApp-LoncaMobileAppTests/Pods-LoncaMobileApp-LoncaMobileAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LoncaMobileApp-LoncaMobileAppTests/Pods-LoncaMobileApp-LoncaMobileAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoncaMobileApp-LoncaMobileAppTests/Pods-LoncaMobileApp-LoncaMobileAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LoncaMobileApp/Pods-LoncaMobileApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LoncaMobileApp/Pods-LoncaMobileApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoncaMobileApp/Pods-LoncaMobileApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LoncaMobileApp-LoncaMobileAppTests/Pods-LoncaMobileApp-LoncaMobileAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LoncaMobileApp-LoncaMobileAppTests/Pods-LoncaMobileApp-LoncaMobileAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoncaMobileApp-LoncaMobileAppTests/Pods-LoncaMobileApp-LoncaMobileAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -414,14 +413,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-LoncaMobileApp-LoncaMobileAppTests.debug.xcconfig */;
+			baseConfigurationReference = 0224BA89E10F97755A63C40F /* Pods-LoncaMobileApp-LoncaMobileAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "LoncaMobileAppTests/Info.plist";
+				INFOPLIST_FILE = LoncaMobileAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -433,7 +432,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.loncamobileapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loncamobileapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoncaMobileApp.app/LoncaMobileApp";
 			};
@@ -441,11 +440,11 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-LoncaMobileApp-LoncaMobileAppTests.release.xcconfig */;
+			baseConfigurationReference = 4287766D4B98AE1FD473A9F6 /* Pods-LoncaMobileApp-LoncaMobileAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = "LoncaMobileAppTests/Info.plist";
+				INFOPLIST_FILE = LoncaMobileAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,7 +456,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.loncamobileapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loncamobileapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoncaMobileApp.app/LoncaMobileApp";
 			};
@@ -465,14 +464,14 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-LoncaMobileApp.debug.xcconfig */;
+			baseConfigurationReference = A7471D3A5F658C413C7CA5E7 /* Pods-LoncaMobileApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "LoncaMobileApp/Info.plist";
-             INFOPLIST_KEY_CFBundleDisplayName = "LoncaMobileApp";
+				INFOPLIST_FILE = LoncaMobileApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LoncaMobileApp;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -484,8 +483,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.loncamobileapp";
-				PRODUCT_NAME = "LoncaMobileApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loncamobileapp;
+				PRODUCT_NAME = LoncaMobileApp;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -494,13 +493,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-LoncaMobileApp.release.xcconfig */;
+			baseConfigurationReference = 385B23E740A7CFA97F9F9415 /* Pods-LoncaMobileApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = "LoncaMobileApp/Info.plist";
-             INFOPLIST_KEY_CFBundleDisplayName = "LoncaMobileApp";
+				INFOPLIST_FILE = LoncaMobileApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LoncaMobileApp;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -512,8 +511,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.loncamobileapp";
-				PRODUCT_NAME = "LoncaMobileApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loncamobileapp;
+				PRODUCT_NAME = LoncaMobileApp;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

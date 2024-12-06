@@ -1,17 +1,23 @@
-
 import axios from 'axios';
+import { API_BASE_URL } from '@env';
 
-const API_URL = 'http://localhost:5000/api';
+// Axios için genel ayarlar
+const apiClient = axios.create({
+  baseURL: API_BASE_URL,
+  timeout: 10000, // 10 saniyelik bir zaman aşımı
+});
 
+// Ürünleri getir
 export const getProducts = async () => {
-  const response = await axios.get(`${API_URL}/products`);
+  const response = await apiClient.get('/products');
   return response.data;
 };
 
+// Ürün detaylarını getir
 export const getProductDetails = async (id) => {
-  //console.log(`${API_URL}/products/${id}`);
-  const response = await axios.get(`${API_URL}/products/${id}`);
-  
-  
+  const response = await apiClient.get(`/products/${id}`);
   return response.data;
 };
+
+
+
