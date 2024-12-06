@@ -1,0 +1,7 @@
+{
+  "name": "LoncaMobileApp",
+  "displayName": "LoncaMobileApp",
+  "plugins": [
+    "expo-font"
+  ]
+}
