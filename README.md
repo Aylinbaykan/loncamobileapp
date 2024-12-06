@@ -59,7 +59,7 @@
 
 1. Projeyi klonlayın:
    ```bash
-   git clone https://github.com/kullanici_adiniz/lonca.git
+   git clone https://github.com/Aylinbaykan/loncamobileapp.git
    cd lonca
 
 ## 🚀 **Uygulamayı Çalıştırma**
