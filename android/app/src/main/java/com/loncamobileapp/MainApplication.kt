@@ -1,4 +1,4 @@
-package com.ilkproje
+package com.loncamobileapp
 
 import android.app.Application
 import com.facebook.react.PackageList

@@ -1,6 +1,6 @@
 {
-  "name": "ilkProje",
-  "displayName": "ilkProje",
+  "name": "LoncaMobileApp",
+  "displayName": "LoncaMobileApp",
   "plugins": [
     "expo-font"
   ]

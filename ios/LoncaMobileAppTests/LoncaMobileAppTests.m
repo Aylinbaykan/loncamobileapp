@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface ilkProjeTests : XCTestCase
+@interface LoncaMobileAppTests : XCTestCase
 
 @end
 
-@implementation ilkProjeTests
+@implementation LoncaMobileAppTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {
